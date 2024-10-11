@@ -1,0 +1,63 @@
+// class ClassName {
+//     constructor() { ... }
+//     method_1() { ... }
+//     method_2() { ... }
+//     method_3() { ... }
+//   }
+<HTML>
+<p>How to define and use a Class method.</p>
+<p id="demo"></p>
+
+
+
+
+<script>
+class car{
+
+constructor(name,year){
+
+    this.name=name;
+    this.year=year;
+}
+age(){
+
+    const date=new Date();
+    return date.getFullYear()-this.year
+
+}
+
+
+}
+
+let mycar=new car("mercedenz",2020);
+
+document.getElementById("demo").innerHTML="my car is" +mycar.name+" <br>"+mycar.age()+"years old";
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</HTML>
+
+
+
+
+
+
+

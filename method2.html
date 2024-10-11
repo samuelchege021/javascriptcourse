@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<p id="demo"></p>
+
+<script>
+class car{
+
+constructor(name,year){
+    this.name=name
+    this.year=year
+
+}
+
+
+age(x){
+
+    return x-this.year;
+}
+
+
+}
+
+
+
+const date=new Date();
+let year=date.getFullYear();
+
+
+const mycar=new car("ford",2002)
+
+
+document.getElementById("demo").innerHTML=mycar.name+ mycar.age(year)
+
+</script>
+
+</html>
