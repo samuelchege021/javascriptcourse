@@ -20,3 +20,22 @@ const ages=users.map(agee=>agee.age)
 console.log(ages)
 
 console.log(usernames)
+
+
+
+
+const person=['eric','sam','joan','sam']
+
+
+
+ person.map(name1=>console.log(name1))
+
+
+
+
+ const animals=['goat','cows','chicken','sheep']
+
+
+ const output=animals.map(animal=>(animal))
+
+ console.log(output)

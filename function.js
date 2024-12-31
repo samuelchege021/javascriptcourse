@@ -210,7 +210,7 @@ console.log(foo(10))
 
 var tee=(y)=>20+y
 
-console.log((10))
+console.log(tee(10))
 
 
 // lamda statement
